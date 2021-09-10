@@ -1,0 +1,14 @@
+{
+  "name": "letu/tracer",
+  "type": "library",
+  "license": "proprietary",
+  "description": "L'Etoile Jagger tracer",
+  "require": {
+    "php": "^7.3",
+    "illuminate/log": "*",
+    "illuminate/http": "*",
+    "illuminate/support": "*",
+    "jukylin/jaeger-php": "^2.1"
+  },
+  "minimum-stability": "dev"
+}
