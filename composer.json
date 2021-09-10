@@ -10,5 +10,10 @@
     "illuminate/support": "*",
     "jukylin/jaeger-php": "^2.1"
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Letu\\Tracer\\": "src"
+    }
+  }
 }
