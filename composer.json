@@ -14,7 +14,7 @@
         "illuminate/log": "*",
         "illuminate/http": "*",
         "illuminate/support": "*",
-        "letu/jaeger": "dev-master"
+        "letu/jaeger": "dev-main"
     },
     "minimum-stability": "dev",
     "autoload": {
