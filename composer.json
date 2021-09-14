@@ -6,7 +6,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/bobrowich/jaeger-php.git"
+            "url": "https://github.com/bobrowich/jaeger.git"
         }
     ],
     "require": {
@@ -14,7 +14,7 @@
         "illuminate/log": "*",
         "illuminate/http": "*",
         "illuminate/support": "*",
-        "letu/jaeger-php": "dev-master"
+        "letu/jaeger": "dev-master"
     },
     "minimum-stability": "dev",
     "autoload": {
