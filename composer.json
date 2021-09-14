@@ -3,12 +3,18 @@
   "type": "library",
   "license": "proprietary",
   "description": "L'Etoile Jagger tracer",
+  "repositories": [
+    {
+      "type": "vcs",
+        "url": "https://github.com/bobrowich/jaeger-php.git"
+    }
+  ],
   "require": {
     "php": ">=7.3",
     "illuminate/log": "*",
     "illuminate/http": "*",
     "illuminate/support": "*",
-    "jukylin/jaeger-php": "^2.1"
+    "letu/jukylin-jaeger-php": "2.1.4"
   },
   "minimum-stability": "dev",
   "autoload": {
