@@ -6,7 +6,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/bobrowich/jaeger.git"
+            "url": "git@gitlab.letoile.tech:2222/mp/packages/jaeger-php.git"
         }
     ],
     "require": {
@@ -14,7 +14,7 @@
         "illuminate/log": "*",
         "illuminate/http": "*",
         "illuminate/support": "*",
-        "letu/jaeger": "1.1"
+        "letu/jaeger-php": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
