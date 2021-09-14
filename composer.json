@@ -1,25 +1,25 @@
 {
-  "name": "letu/tracer",
-  "type": "library",
-  "license": "proprietary",
-  "description": "L'Etoile Jagger tracer",
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/bobrowich/jaeger-php.git"
+    "name": "letu/tracer",
+    "type": "library",
+    "license": "proprietary",
+    "description": "L'Etoile Jagger tracer",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bobrowich/jaeger-php.git"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "illuminate/log": "*",
+        "illuminate/http": "*",
+        "illuminate/support": "*",
+        "letu/jaeger-php": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Letu\\Tracer\\": "src"
+        }
     }
-  ],
-  "require": {
-    "php": ">=7.3",
-    "illuminate/log": "*",
-    "illuminate/http": "*",
-    "illuminate/support": "*",
-    "bobrowich/jaeger-php": "2.1.6"
-  },
-  "minimum-stability": "dev",
-  "autoload": {
-    "psr-4": {
-      "Letu\\Tracer\\": "src"
-    }
-  }
 }
