@@ -14,7 +14,7 @@
     "illuminate/log": "*",
     "illuminate/http": "*",
     "illuminate/support": "*",
-    "letu/jukylin-jaeger-php": "2.1.4"
+    "bobrowich/jaeger-php": "2.1.5"
   },
   "minimum-stability": "dev",
   "autoload": {
