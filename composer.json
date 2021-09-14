@@ -4,7 +4,7 @@
   "license": "proprietary",
   "description": "L'Etoile Jagger tracer",
   "require": {
-    "php": "^7.3 || ^8.0",
+    "php": ">=7.3",
     "illuminate/log": "*",
     "illuminate/http": "*",
     "illuminate/support": "*",
