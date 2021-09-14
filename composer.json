@@ -14,7 +14,7 @@
     "illuminate/log": "*",
     "illuminate/http": "*",
     "illuminate/support": "*",
-    "bobrowich/jaeger-php": "2.1.5"
+    "bobrowich/jaeger-php": "2.1.6"
   },
   "minimum-stability": "dev",
   "autoload": {
